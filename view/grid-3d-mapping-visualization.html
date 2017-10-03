@@ -7,6 +7,17 @@
   <meta name="author" content="링크잇, http://linkit.kr">
 
   <link rel="stylesheet" href="http://openlayers.org/en/v3.10.1/css/ol.css" type="text/css">
+</head>
+<body>
+  <div style="z-index: 2; position: absolute; top: 10px; left: 10px; border:1px;background-color:azure;font-size:50%;font-style: italic;font-weight: bold;">
+    <ul id="data">
+      <li></li>
+    </ul>
+    <p>해당 결과 데이터는 2012년 부산지역의 통계자료(13가지 종속변수, 독립변수 활용)와<br> R을 이용해 GWR분석을 수행한 결과입니다.
+       <br>2014년 FOSS4G KOREA에서 발표된 R기반 웹 어플리케이션 내용을 참조로 구현한 소스입니다.
+       <br>https://www.slideshare.net/SangHwanJun/gis-in-r-imple</p>
+  </div>
+
   <!-- scripts start -->
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="http://openlayers.org/en/v3.10.1/build/ol.js"></script>
@@ -23,15 +34,5 @@
   <script src="../data/busan_crime_grid.js"></script>
   <script src="../js/script/script.js"></script>
   <!-- scripts end -->
-</head>
-<body>
-  <div style="z-index: 2; position: absolute; top: 10px; left: 10px; border:1px;background-color:azure;font-size:50%;font-style: italic;font-weight: bold;">
-    <ul id="data">
-      <li></li>
-    </ul>
-    <p>해당 결과 데이터는 2012년 부산지역의 통계자료(13가지 종속변수, 독립변수 활용)와<br> R을 이용해 GWR분석을 수행한 결과입니다.
-       <br>2014년 FOSS4G KOREA에서 발표된 R기반 웹 어플리케이션 내용을 참조로 구현한 소스입니다.
-       <br>https://www.slideshare.net/SangHwanJun/gis-in-r-imple</p>
-  </div>
 </body>
 </html>

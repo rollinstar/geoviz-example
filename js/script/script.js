@@ -103,7 +103,7 @@ busanCrimeGrid.forEachFeatureInExtent(extent, function(feature) {
     });
     var cube = new THREE.Mesh(geometry, material);
     cube.position.set(sceneX, sceneY, value * valueFactor / 2);
-    console.log('feature : ', feature);
+    // console.log('feature : ', feature);
 
     var obj = {
         dv: 0,
